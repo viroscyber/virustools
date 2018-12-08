@@ -57,14 +57,14 @@ fi
 
 if [ $sd = 02 ] || [ $sd = 2 ];then
 clear
-echo -e $red Installing Nmap"
+echo -e $red Installing Nmap
 pkg install nmap
 echo -e $blue" S U D A H T E R I N S T A L"
 fi
 
 if [ $sd = 03 ] || [ $sd = 3 ];then
 clear
-echo -e $red Installing SQLMAP"
+echo -e $red Installing SQLMAP
 apt update && apt upgrade
 apt install python2
 git clone https://github.com/sqlmapproject/sqlmap.git

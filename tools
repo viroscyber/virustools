@@ -1,0 +1,254 @@
+#!/bin/bash
+
+#BersihinLayar
+clear
+
+#warna
+blue='\e[0;34'
+cyan='\e[0;36m'
+green='\e[0;34m'
+okegreen='\033[92m'
+lightgreen='\e[1;32m'
+white='\e[1;37m'
+red='\e[1;31m'
+yellow='\e[1;33m'
+
+#isinya
+
+echo -e $cyan"###################################"
+echo -e $cyan"# $green  Created By Vir05 Cyb3r        #"
+echo -e $cyan"# $red   Security Darknet            #"
+echo -e $cyan"# $green Santri Salafy Cyber            #"
+echo -e $cyan"# $yellow Ainx Jomblo :(                #"
+echo -e $cyan"###################################"
+echo -e $green" (01) RED HAWK"
+echo -e $green" (02) nmap" 
+echo -e $green" (03) SQLMAP"
+echo -e $green" (04) Spam WhatsApp Call"
+echo -e $green" (05) LITESCRIPT"
+echo -e $green" (06) Weeman"
+echo -e $green" (07) GreenReaper"
+echo -e $green" (08) IPGeoLocation"
+echo -e $green" (09) Tool-X"
+echo -e $green" (10) Mrcakil"
+echo -e $green" (11) DarkFly"
+echo -e $green" (12) 4wsectools"
+echo -e $green" (13) LITEDDOS"
+echo -e $green" (14) moon-buggy"
+echo -e $green" (15) Lazymux"
+echo -e $green" (16) Black-Hydra"
+echo -e $green" (17) A-Rat"
+echo -e $green" (18) Webdav"
+echo -e $green" (19) Hunner"
+echo -e $green" (20) Metasploit"
+echo -e $green" (21) Instabot"
+echo -e $green" (22) Exit"
+
+read -p "root@virus~# " sd;
+
+if [ $sd = 01 ] || [ $sd = 1 ];then
+clear
+echo -e $red Installing RED HAWK
+pkg install git
+pkg install php
+git clone https://github.com/Tuhinshubhra/RED_HAWK
+echo -e $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 02 ] || [ $sd = 2 ];then
+clear
+echo -e $red Installing Nmap"
+pkg install nmap
+echo -e $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 03 ] || [ $sd = 3 ];then
+clear
+echo -e $red Installing SQLMAP"
+apt update && apt upgrade
+apt install python2
+git clone https://github.com/sqlmapproject/sqlmap.git
+echo -e $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 04 ] || [ $sd = 4 ];then
+clear
+echo -e $red Installing Prank
+apt install git
+apt install php
+git clone https://github.com/siputra12/prank
+echo -e $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 05 ] || [ $sd = 5 ];then
+clear
+echo -e $red Installing LITESCRIPT
+pkg install git
+pkg install python2
+git clone https://github.com/4L13199/LITESCRIPT
+echo -e $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 06 ] || [ $sd = 6 ];then
+echo -e $red Installing Weeman
+pkg install git
+pkg install python2
+pip2 install beautifulsoup4
+git clone https://github.com/samyoyo/weeman.git
+echo -e $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 07 ] || [ $sd = 7 ];then
+echo -e $red Installing Green Reaper
+pkg install git
+pkg install python2
+git clone https://github.com/Amriez/GreenReaper.git
+echo -e $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 08 ] || [ $sd = 8 ];then
+echo -e $red Installing IPGeoLocation
+pkg install git
+pkg install python2
+git clone https://github.com/maldevel/IPGeoLocation
+cd IPGeoLocation
+chmod +x ipgeolocation.py
+pip2 install requirements.txt
+echo -e $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 09 ] || [ $sd = 9 ];then
+echo -e $red Installing Tool-X
+pkg install git
+git clone https://github.com/Rajkumrdusad/Tool-X
+cd Tool-X
+chmod +x install.aex
+sh install.aex
+echo -e $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 10 ] || [ $sd = 10 ];then
+echo -e $red Installing Mrcakil
+pkg install git
+git clone https://github.com/mrcakil/Mrcakil.git
+echo -e $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 11 ] || [ $sd = 11 ];then
+echo -e $red Installing DarkFly-Tool
+pkg install git
+git clone https://github.com/Ranginang67/DarkFly-Tool
+cd DarkFly-Tool
+chmod +x *
+sh install
+echo -e $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 12 ] || [ $sd = 12 ];then
+echo -e $red Installing 4wsectools
+pkg install git
+git clone https://github.com/aryanrtm/4wsectools
+cd 4wsectools
+chmod 777 tools
+./tools
+echo -e  $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 13 ] || [ $sd = 13 ];then
+echo -e  $red Installing LITEDDOS
+pkg install git
+pkg install python2
+git clone https://github.com/4L13199/LITEDDOS
+echo -e  $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 14 ] || [ $sd = 14 ];then
+echo -e  $red Installing Moon-Buggy
+pkg install moon-buggy
+echo -e $blue Selamat Bermain
+fi
+
+if [ $sd = 15 ] || [ $sd = 15 ];then
+echo -e  $red Installing Lazymux
+pkg install git
+pkg install python2
+git clone https://github.com/Gameye98/Lazymux
+echo -e  $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 16 ] || [ $sd = 16 ];then
+echo -e  $red Installing Black Hydra
+pkg install git
+pkg install hydra
+pkg install python2
+git clone https://github.com/Gameye98/Black-Hydra
+echo -e  $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 17 ] || [ $sd = 17 ];then
+echo -e  $red Installing A-RAT
+pkg install git
+pkg install python2
+git clone https://github.com/Xi4u7/A-Rat.git
+echo -e  $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 18 ] || [ $sd = 18 ];then
+echo -e  $red Installing Webdav
+pkg install python2
+pip2 install urllib3 chardet certifi idna requests
+pkg install openssl curl
+pkg install libcurl
+pkg install wget
+mkdir webdav
+cd webdav 
+wget https://pastebin.com/raw/HnVyQPtR
+mv HnVyQPtR webdav.py
+python2 webdav.py
+echo -e  $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 19 ] || [ $sd = 19 ];then
+echo -e  $red Installing Hunner
+pkg install git
+pkg install python2
+git clone https://github.com/b3-v3r/Hunner.git
+echo -e  $blue" S U D A H T E R I N S T A L"
+fi
+
+if [ $sd = 20 ] || [ $sd = 20 ];then
+echo -e  $red Installing Metasploit
+apt update && apt upgrade
+apt install git
+apt install wget
+wget 
+https://raw.githubusercontent.com/verluchie/termux-metasplo$
+chmod 777 install.sh
+sh install.sh
+echo $green Metasploit Sudah Terinstall 
+fi
+
+if [ $sd = 22 ] || [ $sd = 22 ];then
+sleep 1
+echo "Terima Kasih Telah Menggunakan Tools Ini :)"
+sleep 1
+echo "Ainx Jomblo"
+sleep 1 
+echo "Jomblo Mah Bebas"
+sleep 1
+echo "Good Bye"
+fi
+
+if [ $sd = 21 ] || [ $sd = 21 ];then
+pkg update && pkg upgrade -y
+pkg install figlet
+pkg install git
+pkg install ruby
+gem install lolcat
+pkg install python2
+git clone https://github.com/Senitopeng/instabot.git
+cd instabot
+pip2 install instabot
+pip2 install -r requirements.txt
+bash instabot
+fi
